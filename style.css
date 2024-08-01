@@ -1,0 +1,120 @@
+
+
+body{
+    background-image:  linear-gradient(to right, #f12711, #f5af19);
+}
+
+
+
+
+.container{
+    background-image:  linear-gradient(to right, #f12711, #f5af19);
+   
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+   
+  width: 40vw;
+  height: 45vh;
+  border-radius: 20px;
+
+}
+.user-input{
+ 
+    height: 6vh;
+    text-align: center;
+}
+
+.field[type="text"]{
+    font-size: 34px;
+    text-align: end;
+    color:green;
+    
+}
+.field{
+    margin: 7px 0px 0px 0px;
+   width: 38vw;
+   height: 3vw;
+  border: none;
+   border-radius:20px ;
+   pointer-events: none;
+   background-color: pink;
+}
+.buttons{
+ 
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    margin: 13px 50px;
+    transform: scale(2,2);
+    border-radius: 50%;
+    width: 25px;
+    border: none;
+    transition:0.4s
+    }
+.btnsd{
+        margin: 13px 47px;
+        transform: scale(2,2);
+        border-radius: 50%;
+        width: max-content;
+        border: none;
+        transition:0.4s
+    }
+    
+
+
+.btns:hover,.btnsd:hover{
+    color: bisque;
+    background-color:  cornflowerblue;
+}
+
+@media only screen and (max-width:640px) {
+
+    
+    .btns{
+        margin: 2px 0.1px 2px 10px;
+        transform: scale(1,1);
+        border-radius: 50%;
+        width: 25px;
+        border: none;
+        transition:0.4s
+        }
+        .btnsd{
+            margin: 2px 1px;
+            transform: scale(1,1);
+            border-radius: 50%;
+            width:min-content;
+            border: none;
+            transition:0.4s
+        }
+    
+.btns:hover,.btnsd:hover{
+    color: bisque;
+    background-color:  cornflowerblue;
+}
+
+.field{
+    margin: 7px 0px 0px 0px;
+   width: 38vw;
+   height: 10vw;
+  border: none;
+   border-radius:20px ;
+   pointer-events: none;
+   background-color: pink;
+}
+}
+
+
+
+
+
+
+
+
